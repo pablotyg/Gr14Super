@@ -43,5 +43,13 @@ class Persona:
     def mayorEdad(self):
         return self._edad >= 18
 
+class Clientes:
+    def __init__(self,persona,registro=0):
+        self.__registro = registro
 
-#### PROGRAMA PRINCIPAL   ####
+class Registro:
+    def __init__(self,mail,password):
+        self.__mail = mail
+        self.__password = password
+    
+####   PROGRAMA PRINCIPAL   ####
